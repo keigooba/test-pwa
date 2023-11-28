@@ -1,6 +1,7 @@
 var CACHE_NAME = 'pwa-sample-caches';
 var urlsToCache = [
   // キャッシュ化したいコンテンツ
+  "index.html"
 ];
 
 self.addEventListener('install', function(event) {
